@@ -4,12 +4,10 @@ int main(void) {
     char ch;
     char nextChar;
     char upper;
-
     printf("Enter a lowercase letter: ");
     scanf(" %c", &ch);
     printf("Character : %c\n", ch);
     printf("ASCII     : %d\n", ch);
-
     // TODO: compute the next character
     nextChar = ch+1;
 
