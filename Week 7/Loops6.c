@@ -9,6 +9,7 @@ int main(){
         printf("===== Menu =====\n1. Sum from 1 to n\n2. Product from 1 to n\n3. Multiplication table\n4. Exit\nEnter your choice: ");
         scanf("%d", &option);
         if(option == 1){
+            sum = 0;
             printf("Enter a positive integer: ");
             scanf("%d", &integer);
             if (integer > 0){
@@ -24,6 +25,7 @@ int main(){
             }
         }
         else if(option == 2){
+            product = 1;
             printf("Enter a positive integer: ");
             scanf("%d", &integer);
             if (integer > 0){
@@ -39,6 +41,7 @@ int main(){
             }
         }
         else if(option == 3){
+            product = 0;
             printf("Enter a positive integer: ");
             scanf("%d", &integer);
             if (integer > 0){
