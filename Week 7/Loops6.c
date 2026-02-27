@@ -7,6 +7,7 @@ int main(){
     int product = 1;
     while(1){
         printf("===== Menu =====\n1. Sum from 1 to n\n2. Product from 1 to n\n3. Multiplication table\n4. Exit\nEnter your choice: ");
+        
         scanf("%d", &option);
         if(option == 1){
             sum = 0;
@@ -67,6 +68,7 @@ int main(){
         else{
             printf("Invalid choice. Try again\n\n");
         }
+        
     }
     
 }
