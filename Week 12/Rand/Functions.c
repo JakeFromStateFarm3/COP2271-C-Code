@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int randNum(){
+int randNum(upper, lower){
     srand((unsigned)time(NULL));
     int upper = 7;
     int lower = 1; 
